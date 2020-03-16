@@ -1,1 +1,31 @@
-this is my first time use github
+## this is my first time use github
+
+
+## How to use git - my first time.
+
+1. install git: sudo apt-get install git
+
+2. config user& email: git config --global user.name "user_name"
+
+			git config --global user.email "email_id"
+
+3. Create a local repository: the folder will save home/"foldername"
+
+			git init "folder_name"
+			
+		---> cd folder_name
+
+4. Create a file
+		touch file_name
+	open text app --> gedit file_name
+		
+5. add file: git add file_name
+
+6. Make commit messenger: git commit -m "content of the messenger"
+
+7. Create repository on git-web --> push file to git clone:
+
+		git clone https://github.com/policod/REPOSITORY_NAME.git
+		
+		git push origin master --> user & passwd
+
