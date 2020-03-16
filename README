@@ -29,3 +29,25 @@
 		
 		git push origin master --> user & passwd
 
+
+## How to modify git file:
+
+open file in cmd:	cat file_name
+open with in textapp:	gedit file_name
+create folder:		mkdir folder_name
+add line to file note: 	echo "content" >> file_name
+
+## How to remove git file:
+
+rm file_name
+git status
+--> notify: delete file
+git add file_name
+git status
+--> the file deleted
+
+
+
+
+
+
